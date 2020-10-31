@@ -1,7 +1,129 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 /* Seu código css aqui */
+
+body {
+  background: #0f0f0f;
+}
+
+.limite {
+  width: 860px;
+  margin: 0 auto;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.header-canal {
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+header {
+  background: #181818;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+header .avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  margin-right: 14px;
+}
+
+header h1 {
+  font: 24px "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+header span {
+  font: 14px "Roboto", sans-serif;
+  color: #aaaaaa;
+}
+
+header .icone {
+  height: 16px;
+  width: 16px;
+  margin-left: 10px;
+}
+
+header .lupa {
+  height: 24px;
+  width: 24px;
+}
+
+header .membro {
+  font: 14px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #3ea6ff;
+  border: 1px solid #3ea6ff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-right: 14px;
+}
+
+header .inscrever-se {
+  font: 14px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #cc0000;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+nav a {
+  font: 14px "Roboto", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+.destaques {
+  align-items: flex-start;
+}
+
+.destaques {
+  display: flex;
+  width: 860px;
+  margin: 0 auto;
+}
+
+.destaques h2 {
+  font: 16px "Roboto", sans-serif;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.destaques .info {
+  margin-left: 24px;
+}
+
+.destaques span {
+  display: block;
+  font: 13px "Roboto", sans-serif;
+  margin-bottom: 16px;
+  color: #aaaaaa;
+}
+
+.destaques p {
+  font: 14px "Roboto", sans-serif;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.destaques a {
+  font: 13px "Roboto", sans-serif;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
+
+.destaques a:hover {
+  color: #ffffff;
+}
